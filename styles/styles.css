@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+}
+
+img {
+    object-fit: cover;
+    max-height:100%;
+}
+
+p {
+  color:white;
+}
+
+li {
+  display: inline;
+}
+
+.wrap {
+  height: 100%;
+}
+
+.bordered {
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.fixed {
+  right: 0;
+}
+
+.blackbox {
+  background-color: black;
+}
+
+.name {
+  margin-top: 10%;
+}
