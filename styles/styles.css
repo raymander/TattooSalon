@@ -1,0 +1,99 @@
+html,
+body {
+  height: 100%;
+  color: MintCream;
+}
+
+img {
+    object-fit: cover;
+    max-height:100%;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  position: absolute;
+  right: 12%;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+a:link, a:visited {
+    color: MintCream;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+  color: #ffeccc;
+}
+
+p {
+  margin-top: 10%;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+footer {
+  background-color: MintCream;
+}
+
+.wrap {
+  height: 100%;
+}
+
+.bordered {
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.fixed {
+  right: 0;
+}
+
+.blackbox {
+  background-color: black;
+}
+
+.whitebox {
+  background-color: #ffeccc;
+  color: black;
+}
+
+.name {
+  margin-top: 10%;
+}
+
+.inwhite {
+    text-shadow: 2px 1px #333333;
+}
+
+.inblack {
+    text-shadow: 2px 1px #555555;
+}
+
+#menu {
+  margin-top: 65%;
+}
+
+.flex-container {
+  display: flex;
+ justify-content: space-around;
+}
